@@ -1,0 +1,42 @@
+.crew{
+    background-image: url("../img/background-crew-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+.crew section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.crewNaslov{
+    font-size: 26px;
+    margin-left: 7rem;
+}
+.crewNaslov span{
+    color: gray;
+}
+.crewImg{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 7rem;
+}
+.crewImg div:first-child{
+    width: 45%;
+    font-size: 20px;
+} 
+.crewImg h2{
+    font-size: 60px;
+    margin: 0;
+}
+.crewImg p:first-child{
+    font-size: 30px;
+    margin: 0;
+}
+.crewImg img{
+    width: 500px;
+    height: 360px;
+}
+

@@ -1,0 +1,37 @@
+.homePageBacgroundImg{
+    background-image: url("../img/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.homePage{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.homePageText{
+    width: 30%;
+    color: white;
+    text-align: justify;
+}
+.homePageText p:first-child{
+    font-size: 25px;
+    margin: 0;
+}
+.homePageText h1{
+    font-size: 9rem;
+    margin: 0;
+}
+.krug{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

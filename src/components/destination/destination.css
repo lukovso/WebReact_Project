@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image: url(../img/background-destination-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.destination{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: white;
+}
+.textImg{
+    color: white;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.textImg h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.textImg span{
+    color: gray;
+}
+.textImg img{
+    margin-left: 4rem;
+}
+.desnaStrana{
+    width: 40%;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+.desnaStrana .navLink{
+    display: flex;
+    column-gap: 1rem;
+    padding-bottom: 2.5rem;
+}
+.desnaStrana .navLink a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.desnaStrana .navLink a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.desnaStrana h1{
+    font-size: 80px;
+    margin: 0;
+}
+.desnaStrana .textMars{
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    padding-bottom: 2.5rem;
+    margin-right: 3rem;
+}
+.distanceData{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+.distanceData div p:last-child{
+    font-size: 25px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}

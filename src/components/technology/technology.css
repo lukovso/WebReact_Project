@@ -1,0 +1,60 @@
+.technology{
+    background-image: url("../img/background-technology-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.technologyNaslov span{
+    color: gray;
+}
+.technologyNaslov{
+    font-size: 30px;
+    margin: 0rem 0rem 2rem 7rem;
+}
+.technologyMainDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.technologyText{
+    display: flex;
+    column-gap: 3rem;
+    margin-left: 7rem;
+    width: 50%;
+}
+.technologyText .spanDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.technologyText .spanDiv span{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    cursor: pointer;
+    font-size: 25px;
+}
+.technologyText .spanDiv span:hover{
+    background-color: white;
+    color: gray;
+}
+.technologyVehicle p:first-child{
+    font-size: 20px;
+}
+.technologyVehicle h2{
+    font-size: 55px;
+    margin: 0;
+}
+.technologyVehicle p:last-child{
+    width: 75%;
+}
+.technology img{
+    width: 450px;
+    height: 370px;
+}
